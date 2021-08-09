@@ -1,0 +1,72 @@
+
+<h1>Register</h1>
+<form action="/users/register" method="POST">
+<div>
+    <label for="name">Name</label>
+    <input
+      type="name"
+      name="name"
+      placeholder="Enter Name"
+      value="<%= typeof name != 'undefined' ? name : '' %>"
+    />
+  
+</div>
+<div>
+    <label for="email">Email</label>
+    <input
+      type="email"
+      name="email"
+      placeholder="Enter Email"
+      value="<%= typeof email != 'undefined' ? email : '' %>"
+    />
+  </div>
+  <div >
+    <label for="password">Password</label>
+    <input
+      type="password"
+      name="password"
+      placeholder="Create Password"
+      value="<%= typeof password != 'undefined' ? password : '' %>"
+    />
+  </div>
+  <div >
+    <label for="password2">Confirm Password</label>
+    <input
+      type="password"
+      name="password2"
+      placeholder="Confirm Password"
+      value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary btn-block">
+    Register
+  </button>
+</form>
+<p >Have An Account? <a href="/users/login">Login</a></p>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  body {
+    background-color: rgb(246, 253, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  form input {
+    border: none;
+    border-radius: 250px;
+    margin: 3px;
+    padding: 10.5px;
+  }
+  form button{
+    border-radius: 200px;
+    background-color: rgb(239, 251, 255);
+    border-color: rgb(255, 255, 255);
+    padding:8px
+  }
+  form label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-radius: 225px;
+    border-color: rgb(170, 187, 211);
+  }
+</style>

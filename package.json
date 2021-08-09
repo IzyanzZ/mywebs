@@ -1,0 +1,31 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "express-generator": "^4.16.1",
+    "mongoose": "^5.13.5",
+    "passport-local": "^1.0.0",
+    "passport": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/izyanzz/\u001b[mywebs.git"
+  },
+  "keywords": [
+    "mywebs"
+  ],
+  "author": "Izynz",
+  "license": "ISC"
+}
